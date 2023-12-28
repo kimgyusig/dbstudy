@@ -42,3 +42,8 @@ CREATE TABLE ORDER_T (
     ORDERD_AT  DATE              NOT NULL
 );
 
+-- 주문 테이블 삭제
+DROP TABLE ORDER_T;
+
+--제품 테이블 삭제
+DROP TABLE PRODUCT_T;
